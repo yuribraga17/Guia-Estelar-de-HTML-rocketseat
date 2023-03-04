@@ -1,0 +1,30 @@
+/*<hex-color> values 0-9 e A-F
+    color: #090;
+    color: #009900;
+    color: #090a;
+    color:#009900aa;
+*/
+
+/*<rgb()> values
+    color: rgb(34, 12, 64, 0.6)
+    color: rgba(34, 12, 64, 0.6)
+ */
+ /*
+HSL → Hue - Saturation - Lightness
+
+    color: hsl(180, 100%, 50%, 60%)
+    color: hsla(180, 100%, 50%, 60%)
+ */
+
+/* Global values
+    color: inheritr; Herda a cor do elemento anterior
+    color: initial;  Volta a sua cor inicial
+    color: unset; Pega a cor do contexto
+*/
+li {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
